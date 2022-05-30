@@ -8,7 +8,7 @@ function Home({ web3 }) {
   return (
     <>
       {/* Page Header start */}
-      <div className="flex flex-1 justify-between items-center">
+      <div className="flex items-center justify-between flex-1">
         <Header />
         <div className="mr-6">
           <Account {...web3} />
@@ -17,7 +17,7 @@ function Home({ web3 }) {
       {/* Page Header end */}
 
       {/* Main Page Content start */}
-      <div className="flex flex-1 flex-col h-screen w-full items-center">
+      <div className="flex flex-col items-center flex-1 w-full h-screen">
         <div className="text-center" style={{ margin: 64 }}>
           <span>This App is powered by Scaffold-eth & Next.js!</span>
           <br />
